@@ -1,0 +1,4 @@
+[
+  "def on_new_clip(text):\n",
+  "from clipboard import clipboard_watcher\n"
+]
