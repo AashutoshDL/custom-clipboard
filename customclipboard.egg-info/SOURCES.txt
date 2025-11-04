@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+customclipboard.egg-info/PKG-INFO
+customclipboard.egg-info/SOURCES.txt
+customclipboard.egg-info/dependency_links.txt
+customclipboard.egg-info/entry_points.txt
+customclipboard.egg-info/requires.txt
+customclipboard.egg-info/top_level.txt

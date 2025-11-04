@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="custom-clipboard",
+    name="customclipboard",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "clipman=custom-clipboard.main:main",  # terminal command
+            "clipman=customclipboard.main:main",  # terminal command
         ],
     },
     author="AashutoshDL",

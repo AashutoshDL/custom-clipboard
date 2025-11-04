@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: customclipboard
+Version: 0.1.0
+Summary: A simple terminal-based clipboard manager in Python
+Home-page: https://github.com/AashutoshDL/custom-clipboard
+Author: AashutoshDL
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyperclip
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+# Lightweight Clipboard
+A simple Python-based clipboard for quickly inserting structured text snippets like timestamps, daily logs, and form responses. Designed to be lightweight, private, and easy to use on Linux.
+
+---
+
+## Features
+
+- Simple GUI for managing clipboard text snippets  
+- Prevents duplicate entries  
+- Lightweight and minimal dependencies  
+- Bindable to custom shortcut keys via Linux automation  
+- Currently supports text only (no images yet)  
+
+---
+
+## Getting Started
+
+Clone the repository
+
+```bash
+git clone [repo url]
+```
+
+Create and activate the virtual environment
+```bash
+python3 -m venv name-of-venv
+
+source name-of-venv/bin/activate
+```
+
+Install the required Python packages using pip:
+
+```bash
+pip install -r requirements.txt
+```

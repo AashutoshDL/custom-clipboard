@@ -1,0 +1,2 @@
+[console_scripts]
+clipman = customclipboard.main:main
