@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="clipman",
+    name="clipstack",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -9,14 +9,14 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "clipman=clipman.main:main",  # terminal command
+            "clipstack=clipstack.main:main",  # terminal command
         ],
     },
     author="AashutoshDL",
     description="A simple terminal-based clipboard manager in Python",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/AashutoshDL/clipman",
+    url="https://github.com/AashutoshDL/clipstack",
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",

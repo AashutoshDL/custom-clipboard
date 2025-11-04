@@ -3,9 +3,9 @@
 import threading
 import pyperclip
 from PyQt5.QtWidgets import QApplication # type: ignore
-from myclipboard.myclipboard.gui import ClipStackGUI
-from myclipboard.myclipboard.clipboard import clipboard_watcher
-from myclipboard.myclipboard.storage import load_clips, save_clips, load_pins, save_pins
+from .gui import ClipStackGUI
+from .clipboard import clipboard_watcher
+from .storage import load_clips, save_clips, load_pins, save_pins
 
 class ClipboardManager:
     def __init__(self, max_history=100):
@@ -59,7 +59,7 @@ class ClipboardManager:
         save_pins(self.pins)
         save_clips(self.history)
 
-if __name__ == "__main__":
+def main():
     manager = ClipboardManager()
     
     app = QApplication([])
@@ -83,3 +83,7 @@ if __name__ == "__main__":
     app.exec_()
     
     manager.save_on_exit()
+    
+# Allow running directly for development
+if __name__ == "__main__":
+    main()
