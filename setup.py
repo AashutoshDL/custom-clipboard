@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="customclipboard",
+    name="clipman",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -9,14 +9,14 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "clipman=customclipboard.main:main",  # terminal command
+            "clipman=clipman.main:main",  # terminal command
         ],
     },
     author="AashutoshDL",
     description="A simple terminal-based clipboard manager in Python",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/AashutoshDL/custom-clipboard",
+    url="https://github.com/AashutoshDL/clipman",
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
