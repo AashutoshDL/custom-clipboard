@@ -3,9 +3,9 @@
 import threading
 import pyperclip
 from PyQt5.QtWidgets import QApplication # type: ignore
-from gui import ClipStackGUI
-from clipboard import clipboard_watcher
-from storage import load_clips, save_clips, load_pins, save_pins
+from myclipboard.myclipboard.gui import ClipStackGUI
+from myclipboard.myclipboard.clipboard import clipboard_watcher
+from myclipboard.myclipboard.storage import load_clips, save_clips, load_pins, save_pins
 
 class ClipboardManager:
     def __init__(self, max_history=100):

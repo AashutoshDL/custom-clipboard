@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import ( #type: ignore
 )
 from PyQt5.QtCore import Qt, QTimer #type: ignore
 import pyperclip
-from storage import save_clips, save_pins
+from myclipboard.myclipboard.storage import save_clips, save_pins
 
 class ClipStackGUI(QWidget):
     def __init__(self, on_select_clip=None, manager=None):
